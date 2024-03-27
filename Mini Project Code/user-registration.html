@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>USER-REGISTRATION PAGE</title>
+    <style>
+         div{
+              text-align: center;
+                color: white;
+            }
+        .backimg{
+               background-image: url(http://t0.gstatic.com/images?q=tbn:ANd9GcRNZwtDdozmjcdcvLLkP7oRPQ8zp_hy7Bw8fbduv8rU2gzdqF5W);
+               height:300px;
+              width: 198%;
+              background-size: 30%;
+            }
+            .backimg1{
+                background-image: url(http://t0.gstatic.com/images?q=tbn:ANd9GcRNZwtDdozmjcdcvLLkP7oRPQ8zp_hy7Bw8fbduv8rU2gzdqF5W);
+            height:300px;
+            width: 203;
+            background-size: 30%;
+            }
+            a.left{
+                float: left;
+                margin-left: 20px;
+            }
+            a{
+                margin-right: 15px;
+            }
+            .image img{
+                display: block;
+                max-width: 30%;
+            } 
+            .item{
+                mix-blend-mode: multiply;
+            }
+            p.c{
+             height: 30px;
+             width: 50%;
+            color: black;
+            }
+            .container{
+                padding: 10px;
+                float: left;
+                color: black;
+                width: 30%;
+                background-color: #BEBEBE;
+                text-align: left;
+                }
+             label{
+                width: 110px;
+                display: inline-block;
+            
+             }   
+    </style>
+</head>
+        <body>
+            <div style="border:1px solid white; width: 99%; height: 60px; background-color: #5c2233;" >
+                <body> 
+                    <div> AMPLIFYING RECOMMENDER SYSTEMS WITH NETWORK REPRESENTATION LEARNING </div>
+                </body>
+                </div>
+                <div style="border:1px solid white; width: 50%; height: 300px; float: left;" align="center">
+                 <div class="backimg">
+                    <br> </br>
+                  <div>
+                  <a style="text-decoration: none;"href="home.html " class="left" > Home </a>&nbsp &nbsp
+                  <a style="text-decoration: none;"href="userlogin.html" class="left"> User </a> &nbsp &nbsp
+                  <a style="text-decoration: none;"href="ecommerce.html " class="left"> E-Commerce Server </a> &nbsp &nbsp
+                  <a style="text-decoration: none;"href="user-registration.html " class="left"> Registration </a> &nbsp &nbsp
+                  </div><br></br>
+                  <p class="c" style="font-weight: bold;"> Welcome To User Registration </p>
+                  <div class="container"  style="position: relative; left: 80px;">
+                    <form>
+                     <label for="fullname">Username</label>
+                     <input type="text" id="Username" name="Username" >
+                     <br></br>
+                     <label for="password">Password</label>
+                     <input type="password" id="password" name="password">
+                     <br></br>
+                     <label for="email">Email Id</label>
+                     <input type="email" id="email">
+                     <br></br>
+                     <label for="mobilenumber">Mobile Number</label>
+                     <input type="tel" id="mobilenumber">
+                     <br></br>
+                     <label for="address">Address</label>
+                     <textarea id="address" rows="2"></textarea>
+                     <br></br>
+                     <label for="dateofbirth">Date Of Birth</label>
+                     <input type="date" id="dateofbirth" name="dateofbirth">
+                     <br></br>
+                     <label>Gender</label>
+                     <select id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                     </select>
+                     <br></br>
+                     <label class="label" for="file">
+                        <span class="camera"></span>
+                        <span>Select Profile Pic</span>
+                      </label>
+                      <input id="file" type="file" onchange="loadFile(event)"/>
+                      <input type="submit">
+                    </form>
+                 </div>  
+                 </div>
+                </div>
+                <div style="border:1px; width: 49%; height: 300px; float: left;">
+                    <br></br>
+                    <section class="image"> <br></br><br></br><br></br>
+                   <img class="item" src=  " https://afckstechnologies.in/img/public_blue_users.png">  
+                </div>
+                <div style="border:1px solid white; width: 99%; height: 190px; margin-top: 250px;" align="center">
+                <div class="backimg1">
+                    
+                </div>
+        </body>
+</html>
